@@ -1,0 +1,273 @@
+
+/* Basic setup */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
+}
+
+.row {
+    width: 1140px;
+    margin: 20px auto;
+}
+
+
+/* logo-area  */
+
+
+.header-section {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo-area .img {
+    height:38px;
+    width: 38px ;
+    background-color: rgba(59, 226, 59, 0.685);
+    outline: none;
+    box-shadow: 6px 8px 2px rgb(43, 196, 43) ;
+    border-radius: 10px;
+    position: relative;
+    bottom: 6px;
+      
+    
+}
+
+.nav-area ul {
+    list-style: none;
+}
+
+.nav-area ul li {
+    display: inline-block;
+    margin-left: 30px
+
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.719)
+}
+
+/* main section  */
+.main-section {
+    background: linear-gradient(rgba(58, 172, 73, 0.6) ,rgba(0, 255, 76, 0.6)), url(img/business.jpg) no-repeat;
+    background-position: center center;
+    
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-section h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+
+}
+
+.main-section p {
+    width: 72%;
+    margin: auto;
+    text-transform:uppercase;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+     word-wrap:break-word;
+
+}
+
+.main-section button {
+    padding: 12px 60px;
+    color : black;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.main-section :focus button{
+    outline: none;
+}
+
+/* Product -section */
+
+.product-section {
+    width:90%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.product-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(44, 37, 37);
+    word-spacing: 5px;
+
+}
+
+.product {
+    display: flex;
+    margin-top: 50px;
+    
+
+}
+
+.item {
+    text-align: center;
+    width: 30%;
+    margin:0 auto;
+
+    
+}
+
+.item img {
+    width: 80px;
+    background-color: rgb(43, 196, 43);
+    border-radius: 50%;
+    margin-bottom: 5px;
+    color: white;
+
+}
+
+.item h3 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+
+}
+
+.item p {
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: auto;
+}
+
+/* form section */
+.form-section {
+    margin-top: 100px;
+    background-color: rgba(37, 192, 58, 0.87);
+    padding: 30px;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-content {
+    width: 40%;
+    margin: 40px auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input[type="text"]{
+    width:450px;
+    margin: 0 auto;
+    background-color:  rgba(37, 192, 58, 0.87);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border : 2px solid white;
+    color: rgb(247, 242, 242);
+  
+    
+}
+form input[type="text"]:focus {
+    outline: none;
+}
+
+
+form input[type="submit"]{
+    width: 150px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    border:none;
+    border: 1px solid rgba(17, 173, 38, 0.87);
+    color:rgb(43, 196, 43)
+
+}
+
+
+form input[type="submit"]:hover {
+    background-color: rgba(50, 65, 54, 0.74);
+}
+
+/* Contact section */
+
+.contact-section  {
+    width:60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    padding-left: 100px;
+    
+
+}
+
+.detels h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.detels p {
+    width: 50%;
+    font-size: 15px;
+}
+
+
+/* footer section */
+.fooder-section {
+    margin-top: 50px;
+	background: #273a71;
+	text-align: center;
+	border: .1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.fooder-section ul li {
+	list-style-type: none;
+	margin-left: 2rem;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.fooder-section ul li a:link,
+.fooder-section ul li a:visited {
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.fooder-section ul li:hover a {
+	color: #30bae7;
+
+}
